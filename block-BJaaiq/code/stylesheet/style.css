@@ -47,6 +47,21 @@ table {
     border-spacing: 0;
 }
 
-h1{
-    color: red;
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+blockquote{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding: 50px 200px;
+    padding-bottom: 60px;
+}
+
+cite{
+    font-size: 24px;
 }
