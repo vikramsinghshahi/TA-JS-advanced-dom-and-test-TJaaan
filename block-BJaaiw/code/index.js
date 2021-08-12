@@ -267,13 +267,15 @@ function resetBall(){
 
 function gameOver(){
     if(life <= 0){
-        showYouLost();
+        // showYouLost();
         game_over = true;
+        alert("yo have lost the game")
     }
 
     if(score >= 200){
-        showYouWin();
+        // showYouWin();
         game_over = true;
+        alert("you have won the game")
     }
 
 }
