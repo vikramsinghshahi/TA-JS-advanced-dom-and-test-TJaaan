@@ -9,6 +9,9 @@
   "author": "AltCampus",
   "license": "GNU GPL V3",
   "dependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "parcel-bundler": "^1.12.5"
   }
 }
