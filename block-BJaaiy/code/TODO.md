@@ -52,6 +52,16 @@ Find the difference between the following 2 dates:
 - Check if the year `2019` is a leap year
 - Check if the year `2020` is a leap year
 
+2.
+
+- date1: `2014-11-27`
+- date2: `2015-09-16`
+
+- Check is `2020-01-01` date after `2018-01-01`
+- Check is `2010-01-01` date after `2018-01-01`
+- Check if the year `2019` is a leap year
+- Check if the year `2020` is a leap year
+
 #### Use lodash to do the following things:
 
 - Use five methods form the list of Array methods and five from Collection methods (Left side on this link https://lodash.com/docs/4.17.15)
