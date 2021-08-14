@@ -19,6 +19,8 @@ let count = 1;
 if (true) {
   count += 1;
 }
+
+// count has alerady been declared
 ```
 
 #### Fix the following code given below by following the rules of Airbnb Style Guide. Use ESLint to find the error
@@ -50,9 +52,7 @@ var animalMethods = {
     return this.location;
   },
   summary: function () {
-    console.log(
-      `I live in ${this.location} and I have ${this.numberOfLegs}`
-    );
+    console.log(`I live in ${this.location} and I have ${this.numberOfLegs}`);
   },
 };
 
@@ -90,12 +90,7 @@ var dogsMethods = {
 
 Object.setPrototypeOf(dogsMethods, animalMethods);
 
-function createCat(
-  location,
-  numberOfLegs,
-  name,
-  colorOfEyes
-) {
+function createCat(location, numberOfLegs, name, colorOfEyes) {
   let obj = createAnimal(location, numberOfLegs);
   Object.setPrototypeOf(obj, catsMethods);
   obj.name = name;
